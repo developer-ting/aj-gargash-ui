@@ -1,0 +1,113 @@
+// Font Size //
+.text_100 {
+  font-size: 100px;
+  @media only screen and (max-width: 991px) {
+    font-size: 40px;
+  }
+}
+.text_xxxxl {
+  font-size: 54px;
+  @media only screen and (max-width: 991px) {
+    font-size: 40px;
+  }
+}
+.text_xxxl {
+  font-size: 50px;
+  @media only screen and (max-width: 991px) {
+    font-size: 40px;
+  }
+  @media only screen and (max-width: 767px) {
+    font-size: 30px;
+  }
+}
+.text_xxl {
+  font-size: 45px;
+  @media only screen and (max-width: 991px) {
+    font-size: 40px;
+  }
+  @media only screen and (max-width: 767px) {
+    font-size: 30px;
+  }
+}
+.text_xl {
+  font-size: 36px;
+  @media only screen and (max-width: 991px) {
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 767px) {
+    font-size: 24px;
+  }
+}
+.text_xsl {
+  font-size: 30px;
+  @media only screen and (max-width: 767px) {
+    font-size: 20px;
+  }
+}
+.text_lg {
+  font-size: 22px;
+}
+.text_md {
+  font-size: 20px;
+  @media only screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+.text_reg {
+  font-size: 18px;
+}
+.text_sm {
+  font-size: 16px;
+}
+.text_xxs {
+  font-size: 14px;
+}
+.text_xs {
+  font-size: 12px;
+}
+
+// Font Weight //
+.text_700 {
+  font-weight: 700;
+}
+.text_600 {
+  font-weight: 600;
+}
+.text_500 {
+  font-weight: 500;
+}
+.text_400 {
+  font-weight: 400;
+}
+.text_300 {
+  font-weight: 300;
+}
+.text_200 {
+  font-weight: 200;
+}
+.text_100 {
+  font-weight: 100;
+}
+
+// Line Height //
+.lh_1 {
+  line-height: 1;
+}
+.lh_1_1 {
+  line-height: 1.1;
+}
+.lh_1_2 {
+  line-height: 1.2;
+}
+.lh_1_3 {
+  line-height: 1.3;
+}
+.lh_1_4 {
+  line-height: 1.4;
+}
+.lh_1_5 {
+  line-height: 1.5;
+}
+.lh_1_6 {
+  line-height: 1.6;
+}

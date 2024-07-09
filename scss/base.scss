@@ -1,4 +1,8 @@
 @import "variables"; //import this on each scss page you create
+@import "global";
+@import "typography";
+@import "font";
+@import "btn";
 
 body {
     margin: 0;
@@ -42,3 +46,153 @@ section {
     max-width: 100%;
     height: auto;
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  font-weight: normal;
+}
+
+.font_pd{
+  font-family: 'Playfair Display';
+}
+.font_hl{
+  font-family: "HELVETICANEUE-LIGHT";
+}
+
+.text_center{
+  text-align: center;
+}
+.text_uppercase{
+  text-transform: uppercase;
+}
+.d_f {
+  display: flex;
+}
+.f_w {
+  display: flex;
+  flex-wrap: wrap;
+}
+.f_w_j {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.f_w_a_j_center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.f_j {
+  display: flex;
+  justify-content: space-between;
+}
+.f_w_se {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.f_w_a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.f_r_aj_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f_r_aj_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f_r_a_center {
+  display: flex;
+  align-items: center;
+}
+.a_center {
+  align-items: center;
+}
+.f_r_j_center {
+  display: flex;
+  justify-content: center;
+}
+.f_c_aj_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.f_c_a_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.f_c_j_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// line height
+.l_h_1 {
+  line-height: 1.1;
+}
+.l_h_2 {
+  line-height: 1.2;
+}
+.l_h_3 {
+  line-height: 1.3;
+}
+.l_h_4 {
+  line-height: 1.4;
+}
+.l_h_5 {
+  line-height: 1.5;
+}
+.l_h_6 {
+  line-height: 1.6;
+}
+.l_h_7 {
+  line-height: 1.7;
+}
+.l_h_8 {
+  line-height: 1.8;
+}
+// line height end 
+
+// font weight
+.f_w_exl {
+	font-weight: 200;
+}
+.f_w_l {
+	font-weight: 300;
+}
+.f_w_r {
+	font-weight: 400;
+}
+.f_w_m {
+	font-weight: 500;
+}
+.f_w_s_b {
+	font-weight: 600;
+}
+.f_w_b {
+	font-weight: 700;
+}
+.f_w_i {
+	font-style: italic;
+}
+.f_w_i_none {
+	font-style: inherit;
+}
+// font weight end
