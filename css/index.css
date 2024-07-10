@@ -41,16 +41,24 @@
   background-color: var(--color_black); }
 
 #index_page {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #FFF9F8;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  #index_page .comming_soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative; }
   #index_page .patch_img {
     position: absolute;
     right: 0;
     bottom: 0; }
     @media only screen and (max-width: 1199px) {
       #index_page .patch_img img {
-        width: 600px; } }
+        width: 800px; } }
     @media only screen and (max-width: 767px) {
       #index_page .patch_img img {
         width: 400px; } }
